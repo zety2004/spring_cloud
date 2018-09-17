@@ -11,6 +11,8 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 public class SpringconfigApplication {
 
     public static void main(String[] args) {
+
+        System.out.println("springCloud配置中心----start");
         SpringApplication.run(SpringconfigApplication.class, args);
     }
 }
