@@ -18,6 +18,7 @@ public class ClientApplication {
     }
 
     public static void main(String[] args) {
+        System.out.println("springCloud微服务2------start");
         SpringApplication.run(ClientApplication.class, args);
     }
 }
