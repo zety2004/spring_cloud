@@ -1,0 +1,21 @@
+server:
+  port: 9090
+
+logging:
+  config: classpath:logback-spring.xml
+
+spring:
+  servlet:
+      multipart:
+        maxFileSize: 2Mb
+        maxRequestSize: 10Mb
+  application:
+      name: eureka-website
+  cloud:
+      config:
+          label: master
+          profile: dev
+          uri: http://192.168.0.145:1111
+
+
+
